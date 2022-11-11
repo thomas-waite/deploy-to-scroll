@@ -1,6 +1,7 @@
 import * as dotenv from "dotenv";
 
 import { HardhatUserConfig } from "hardhat/config";
+import "@nomiclabs/hardhat-ethers";
 
 dotenv.config();
 
